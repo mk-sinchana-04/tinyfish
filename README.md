@@ -1,4 +1,5 @@
 # GapFinder
+![GapFinder screenshot](screenshot.png)
 
 Close the gap between you and the opportunity.
 
@@ -22,7 +23,6 @@ Internship listings have no public API, so GapFinder uses the TinyFish Agent API
 1. Clone the repo
 2. Install dependencies: `pip install -r requirements.txt`
 3. Create a `.env` file: `TINYFISH_API_KEY=your_key_here`
-4. Run: `python main.py`
-
+4. Run: python -m uvicorn main:app --reload, then open http://127.0.0.1:8000
 ## Future scope
 More job sources, personalised roadmaps with progress tracking, verified coding assessments, employer dashboards, and better matching through feedback.
